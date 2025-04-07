@@ -3,6 +3,7 @@ import java.time.LocalTime;
 /**
  * Bank Account Application Tester
  * @author Marcelo Cruz
+ * a@author Richard Yang
  */
 public class Application {
     public static void main(String[] args) {
