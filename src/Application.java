@@ -1,11 +1,17 @@
+import java.time.LocalTime;
+
 /**
  * Bank Account Application Tester
- * @author Hellen Pacheco
+ * @author Marcelo Cruz
  */
 public class Application {
     public static void main(String[] args) {
-        int option = 0;
-        double amount = 0.0;
+
+
+
+        //time
+        LocalTime now = LocalTime.now();
+        System.out.println(now);
 
         BankAccount account = new BankAccount(100);
         System.out.println("New Account Balance: " + account.getBalance());
